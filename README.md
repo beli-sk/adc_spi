@@ -8,9 +8,13 @@ Wiring
 ------
 
 PB3: ADC input in range 0V - 2.56V (do not exceed Vcc)
+
 PB2: SCK
+
 PB1: MISO
+
 PB0: SS (active low)
+
 (no MOSI channel needed)
 
 SPI mode 2 (CPOL=1, CPHA=0: one-based clock, negative edge)
